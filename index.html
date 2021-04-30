@@ -1,234 +1,251 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/added_style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
 </head>
 <body>
     <div class="container-fluid">
         <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------HEADER STARTS-->
-        <div class="row" id="header">
-            <div class="col-sm-12">
-                <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/logo.jpg" width="100" height="70" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <ul class="collapse navbar-collapse nav nav-pills" id="navbarText">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#products">Products & Solutions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav id="main-menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" width="100" height="50" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products & Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
             </div>
         </div>
+            
+        </nav>
         <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------HEADER ENDS-->
         <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------BODY STARTS-->
-        <div class="row" id="body" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-            <!----------------------------------------------------------------------------------------------COMPANY IMAGE STARTS-->
-            <div id="image">
-                <br />
-                <br />
-                <br />
-                <br />
+        <!----------------------------------------------------------------------------------------------COMPANY IMAGE STARTS-->
+        <div id="image">
+            <div id="spacer"></div>
+            <div id="slogan">
                 <h1>A U T O M A T E D</h1>
                 <h3>E N E R G Y & W A T E R M E T E R</h3>
                 <h1>M O N I T O R I N G</h1>
                 <h3>S Y S T E M S</h3>
             </div>
-            <!----------------------------------------------------------------------------------------------COMPANY IMAGE ENDS-->
+            <div id="topic" class="col-md-8 offset-md-2">
+                <p id="about">About Us</p>
+            </div>
+        </div>
+        <br />
+        <!----------------------------------------------------------------------------------------------COMPANY IMAGE ENDS-->
+        <div class="row" id="body" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
             <!----------------------------------------------------------------------------------------------ABOUT COMPANY STARTS-->
-            <div class="row" id="about">
-                <h2>About intelliSmart<br />Utilities</h2>
-                <p>
-                    IntelliSmart Utilities serves clients around South Africa and abroad with
-                    innovative metering and management solutions for
-                </p>
-                <h3>
-                    electricity, water, heat &
-                    cooling.
-                </h3>
-                <div class="row" id="more">
-                    <div class="col-lg-4">
-
+            <div>
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="row">
+                        <div class="contentcontainer col-lg-4">
+                            <h4>IntelliSmart Utilities</h4>
+                            <p>
+                                serves clients around South Africa and abroad with
+                                innovative metering and management solutions for
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="col-lg-12 coverage">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-lg-6">
+                                        <img class="icon" src="images/electricity.png" width="100" height="100" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>electricity</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 coverage">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-lg-6">
+                                        <img class="icon" src="images/water.png" width="100" height="100" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Water</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="col-lg-12 coverage">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-lg-6">
+                                        <img class="icon" src="images/heat.png" width="100" height="100" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Heat</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 coverage">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-lg-6">
+                                        <img class="icon" src="images/cooling.png" width="100" height="100" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Cooling</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        <h3>NATIONAL FOOTPRINT</h3>
-                        <p>
-                            IntelliSmart Utilities operates
-                            in all the main geographical
-                            area (Gauteng, KZN, Cape
-                            Province, Eastern Province,
-                            Mpumalanga, Polokwane,
-                        </p>
+                    <br />
+                    <br />
+                    <br />
+                    <div class="row">
+                        <div class="col-lg-2 offset-lg-5">
+                            <a href="about.html" id="more-about">more about us  </a>                              
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        <h3>
-                            NATIONAL PRICING
-                            STRUCTURES
-                        </h3>
-                        <p>
-                            IntelliSmart Utilities is able to
-                            offer a standardized, national
-                            pricing structure to clients
-                            on a national basis. The
-                            larger the range of...
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h3>
-                            RESPONSIVENESS TO
-                            CLIENT NEEDS
-                        </h3>
-                        <p>
-                            IntelliSmart Utilities is able to
-                            deliver standard and
-                            customized solutions within
-                            a short turnaround time in
-                            remote areas. We will add
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h3>
-                            PROJECT
-                            MANAGEMENT
-                            CAPABILITY
-                        </h3>
-                        <p>
-                            IntelliSmart Utilities offers
-                            excellent project
-                            management capacity in the
-                            implementation of any short
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h3>
-                            LONG TERM
-                            SUSTAINABILITY
-                        </h3>
-                        <p>
-                            IntelliSmart Utilities focus on
-                            the long term sustainability
-                            of our solutions to ensure
-                            that we can grow and
-                            develop our products and...
-                        </p>
-                    </div>
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </div>
             <!----------------------------------------------------------------------------------------------ABOUT COMPANY ENDS-->
             <!------------------------------------------------------------------------------------------COMPANY PRODUCTS, SOLUTIONS STARTS-->
-            <hr />
-            <h2 id="products">Products & Solutions</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <h3>Account Management Solutions</h3>
-                    <p>
-                        This is the basic account management aspect whereby we manage the council account on
-                        behalf of our clients on a monthly basis
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Dispute Management Solutions</h3>
-                    <p>
-                        This is the basic account management aspect whereby we manage the council account on
-                        behalf of our clients on a monthly basis
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Municipal Debt Management Solutions</h3>
-                    <p>
-                        This is the basic account management aspect whereby we manage the council account on
-                        behalf of our clients on a monthly basis
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Cloud Metering Solutions</h3>
-                    <p>
-                        This is the basic account management aspect whereby we manage the council account on
-                        behalf of our clients on a monthly basis
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Payment Management Solutions</h3>
-                    <p>
-                        This is the basic account management aspect whereby we manage the council account on
-                        behalf of our clients on a monthly basis
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Pre-Paid Metering Solutions</h3>
-                    <p>
-                        This is the basic account management aspect whereby we manage the council account on
-                        behalf of our clients on a monthly basis
-                    </p>
+            <div id="products" class="row">
+                <div id="container" class="col-lg-8 offset-lg-2">
+                    <div class="row label-prods">
+                        <p>Products</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card text-center">
+                                <img src="images/meter.jpg" class="card-img-top" />
+                                <div class="card-body">
+                                    <h5 class="card-title">THE METERS</h5>
+                                    <p>
+                                        The data loggers which can
+                                        be fitted on both new and
+                                        existing systems collect user
+                                        electrical and water data,
+                                        which they then feed
+                                        to the web
+                                    </p>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card text-center">
+                                <img src="images/inhouse.jpg" class="card-img-top" />
+                                <div class="card-body">
+                                    <h5 class="card-title">IN-HOUSE DISPLAY</h5>
+                                    <p>
+                                        The portal can be installed,
+                                        locked and viewed through
+                                        an in-house display to be
+                                        installed at each unit or
+                                        house.. The system is
+                                        accessible through
+                                    </p>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card text-center">
+                                <img src="images/portal.jpg" class="card-img-top" />
+                                <div class="card-body">
+                                    <h5 class="card-title">THE WEB PORTAL</h5>
+                                    <p>
+                                        The web portal has two user
+                                        types, the administrator and
+                                        the home/unit owner. From
+                                        here the owner is able to
+                                        view their individual
+                                        water and electricity usage
+                                    </p>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <br />
+                    <hr class="hr"/>
+                    <div class="row label-prods">
+                        <p>Solutions</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p><b>Account Management Solutions</b></p>
+                            <p>
+                                This is the basic account management aspect whereby we manage the council account on
+                                behalf of our clients on a monthly basis
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p><b>Dispute Management Solutions</b></p>
+                            <p>
+                                This is the basic account management aspect whereby we manage the council account on
+                                behalf of our clients on a monthly basis
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p><b>Municipal Debt Management Solutions</b></p>
+                            <p>
+                                This is the basic account management aspect whereby we manage the council account on
+                                behalf of our clients on a monthly basis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p><b>Cloud Metering Solutions</b></p>
+                            <p>
+                                This is the basic account management aspect whereby we manage the council account on
+                                behalf of our clients on a monthly basis
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p><b>Payment Management Solutions</b></p>
+                            <p>
+                                This is the basic account management aspect whereby we manage the council account on
+                                behalf of our clients on a monthly basis
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p><b>Pre-Paid Metering Solutions</b></p>
+                            <p>
+                                This is the basic account management aspect whereby we manage the council account on
+                                behalf of our clients on a monthly basis
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-----------------------------------------------------COMPANY PRODUCTS STARTS-->
 
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <div class="row">
-                <h2>Products</h2>
-                <div class="col-lg-4">
-                    <h3>THE METERS</h3>
-                    <p>
-                        The data loggers which can
-                        be fitted on both new and
-                        existing systems collect user
-                        electrical and water data,
-                        which they then feed
-                        to the web
-                    </p>
-                    <img src="images/temp2.jpg" width="100" height="100" />
-                </div>
-                <div class="col-lg-4">
-                    <h3>THE METERS</h3>
-                    <p>
-                        The data loggers which can
-                        be fitted on both new and
-                        existing systems collect user
-                        electrical and water data,
-                        which they then feed
-                        to the web
-                    </p>
-                    <img src="images/temp2.jpg" width="100" height="100" />
-                </div>
-                <div class="col-lg-4">
-                    <h3>THE METERS</h3>
-                    <p>
-                        The data loggers which can
-                        be fitted on both new and
-                        existing systems collect user
-                        electrical and water data,
-                        which they then feed
-                        to the web
-                    </p>
-                    <img src="images/temp2.jpg" width="100" height="100" />
-                </div>
-            </div>
             <!----------------------------------------------------------------------------------------------COMPANY PRODUCTS, SOLUTIONS ENDS-->
             <!----------------------------------------------------------------------------------------------COMPANY CONTACTS STARTS-->
-            <hr />
+            
             <div id="contact" class="row">
                 <div class="col-lg-8" id="map">
-                    <h1>...MAP HERE...</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.245040524685!2d28.057002420347054!3d-26.04612716997029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9573b65ce5a91b%3A0xefface3ebbc5c301!2sThe%20Avenues%20Office%20Park!5e0!3m2!1sen!2sza!4v1619750930205!5m2!1sen!2sza" width="1200" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col-lg-4">
                     <h3>Contuct Us</h3>
+                    <p>
+                        45 Homestead Rd, Rivonia, Sandton, 2196
+                    </p>
                     <p>
                         email@gmail.com
                     </p>
@@ -252,14 +269,54 @@
         <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------BODY ENDS-->
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FOOTER STARTS-->
         <br />
-        <footer class="row" id="footer">
-            <div class="col-sm-12">
+        <footer class="row">
+            <div class="col-lg-3">
+                <img src="images/text.png" width="200" />
+                <p>Atomated Energy & Watermeter Monitoring Systems</p>
                 <div class="row">
-                    Footer Content
+                    <div class="col-lg-4">
+                        <img src="images/iso.png" width="100" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/sanas.PNG" width="100" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/jaswic.PNG" width="100" />
+                    </div>
                 </div>
                 <div class="row">
-                    Copyright:
+                    <div class="col-lg-4">
+                        <img src="images/tic.PNG" width="100" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/sigfox.PNG" width="100" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/icasa.PNG" width="100" />
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-3">
+                <p class="footer-topics">Products</p>
+                <p>The Meters</p>
+                <p>In-House Display</p>
+                <p>The Web Portal</p>
+            </div>
+            <div class="col-lg-3">
+                <p class="footer-topics">Solutions</p>
+                <p>Account Management Solutions</p>
+                <p>Dispute Management Solutions</p>
+                <p>Municipal Debt Management Solutions</p>
+                <p>Cloud Metering Solutions</p>
+                <p>Payment Management Solutions</p>
+                <p>Pre-Paid Metering Solutions</p>
+            </div>
+            <div class="col-lg-3">
+                <p class="footer-topics">Adress</p>
+                <p>45 Homestead Rd</p><p>Rivonia</p><p>Sandton, 2196 </p>
+            </div>
+            <div class="col=lg-12 " id="copyright">
+                <p>All rights reserved by &copy; ...</p>
             </div>
         </footer>
         <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FOOTER ENDS-->

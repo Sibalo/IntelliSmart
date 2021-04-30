@@ -1,14 +1,165 @@
-#body{
-    min-height: 120vh;
+/*---------------------------------------------------------NAVBAR STARTS-----------------------------------------*/
+.container-fluid #main-menu{
+    background-image:linear-gradient(-90deg,#1cc3cb, white);
 }
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: white!important;
+    font-weight: 500;
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+.nav-toggler{
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    color: black!important;
+}
+/*---------------------------------------------------------NAVBAR ENDS-----------------------------------------*/
+
+
+
+/*---------------------------------------------------------BODY STARTS-----------------------------------------*/
 #image {
+    margin: 0px;
+    padding: 0px;
     background-image: url("../images/temp.jpg");
     height: 50vh;
     color: white;
     text-align: center;
+    width: 100%;
+    position: relative;
+
 }
-#map{
-    background-color: gray;
-    height: 25vh;
+#slogan h1{
+    position: relative;
+    animation-name: processing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes processing{
+    0%      {left: -1000px;}
+    100%    {left: 0;}
+}
+#slogan h3{
+    position: relative;
+    animation-name: project;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes project{
+    0%      {opacity: 0;}
+    100%    {opacity: 1;}
+}
+#image #spacer{
+    height: 25%;
+}
+#slogan{
+    height: 60%;
+}
+#topic{
+    color: #1cc3cb;
     text-align: center;
+    position: relative;
+    padding: 0px;
+    height: 16%;
+    background-color: white;
+}
+#topic p{
+    position: relative;
+    padding-top: 3%;
+}
+.contentcontainer{
+    border-width: 5px;
+    border:1px solid #1cc3cb;
+    text-align: justify;
+    padding: 40px;
+}
+.coverage{
+    margin: 1px;
+    border:1px solid #1cc3cb;
+    position: relative;
+    height: 50%;
+}
+.icon{
+    margin: 4px;
+    border-radius: 50px;
+    padding: 10px;
+}
+#more{
+    padding: 30px;
+    text-align: justify;
+    margin-top: 5%;
+    background-image:linear-gradient(to bottom,rgb(28, 195, 203, .3), white, rgb(28, 195, 203, .3));
+}
+#more .row .box{
+    padding: 20px;
+    /*background-color: red;*/
+}
+#more-about{
+    border: 1px solid #1cc3cb;
+    padding: 20px;
+    color:#1cc3cb;
+    text-decoration: none;
+}
+#more-about:hover{
+    text-decoration: underline;
+    color: black;
+    border-color: black;
+}
+#products{
+    background-image: url("../images/temp.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2%;
+}
+#products #container{
+    background-color:white;
+    padding: 2% 5% 2% 5%;
+    text-align: justify;
+    
+}
+.label-prods{
+    color: #1cc3cb;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-body{
+    box-shadow: 0 0 7px #1cc3cb;
+}
+.hr{
+    background-color: #1cc3cb;
+    opacity: 1;
+}
+.sols{
+    color: red;
+}
+footer{
+    background-color: #494949;
+    color: black;
+}
+.footer-topics{
+
+    color:  #1cc3cb;
+}
+#copyright{
+    margin: 20px;
+    text-align: center;
+}
+#contact{
+    padding-top: 2%;
+    
+}
+#about{
+    margin: 2px;
 }
