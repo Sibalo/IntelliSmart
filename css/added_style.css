@@ -46,6 +46,7 @@
     height: 15vh;
 }
 #image-parent #topic-about{
+    padding: 20px;
     color: #1cc3cb;
     text-align: center;
     position: relative;
