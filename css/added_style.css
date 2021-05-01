@@ -23,15 +23,11 @@
     border-bottom: 1px solid black;
     color: black!important;
 }
-/*---------------------------------------------------------NAVBAR ENDS-----------------------------------------*/
-
-
-
-/*---------------------------------------------------------BODY STARTS-----------------------------------------*/
 #image {
     margin: 0px;
     padding: 0px;
-    background-image: url("../images/temp.jpg");
+    background-image: url("../images/temp2.jpg");
+    background-size: 100% 100%;
     height: 50vh;
     color: white;
     text-align: center;
@@ -172,7 +168,7 @@
     padding: 60px;
 }
 #products{
-    background-image: url("../images/temp.jpg");
+    background-image: url("../images/temp2.jpg");
     background-attachment: fixed;
     background-size: cover;
     padding: 2%;
