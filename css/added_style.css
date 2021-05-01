@@ -3,6 +3,8 @@
     background-image:linear-gradient(-90deg,#1cc3cb, white);
 }
 .nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     margin: 3px;
     color: white!important;
@@ -39,6 +41,8 @@
 
 }
 #slogan h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     position: relative;
     animation-name: processing;
     animation-duration: 3s;
@@ -49,6 +53,10 @@
     100%    {left: 0;}
 }
 #slogan h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: .7;
     position: relative;
     animation-name: project;
     animation-duration: 3s;
@@ -75,17 +83,27 @@
     background-color: white;
 }
 #topic p{
+    color: #1cc3cb;
     position: relative;
     padding-top: 3%;
 }
-.contentcontainer{
+.row .contentcontainer{
     border-width: 5px;
     border:1px solid #1cc3cb;
     text-align: justify;
-    padding: 40px;
+    padding: 50px;
+    margin-top: 10px;
+    margin: auto;
+}
+.contentcontainer h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: .7;
 }
 .coverage{
-    margin: 1px;
+    margin: 10px;
+    padding: 0px;
     border:1px solid #1cc3cb;
     position: relative;
     height: 50%;
@@ -96,25 +114,47 @@
     padding: 10px;
 }
 #more{
+    font-family: 'Raleway', sans-serif;
     padding: 30px;
     text-align: justify;
     margin-top: 5%;
-    background-image:linear-gradient(to bottom,rgb(28, 195, 203, .3), white, rgb(28, 195, 203, .3));
+    background-image:linear-gradient(to bottom,rgb(28, 195, 203, .2), white, rgb(28, 195, 203, .2));
+}
+#.box p{
+    font-family: 'Raleway', sans-serif;
 }
 #more .row .box{
     padding: 20px;
-    /*background-color: red;*/
 }
 #more-about{
     border: 1px solid #1cc3cb;
+    font-family: 'Raleway', sans-serif;
     padding: 20px;
     color:#1cc3cb;
     text-decoration: none;
+    animation-name: moreAbout;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation: infinite
+    animation-timing-function: ease-in-out;
+}
+@keyframes moreAbout{
+    0% {background-color: white; color: #1cc3cb;}
+    100%{background-color: gray; color: black;}
 }
 #more-about:hover{
+    animation-play-state: paused;
     text-decoration: underline;
     color: black;
     border-color: black;
+}
+#more-about:visited{
+    animation-play-state: paused!important;
+    color: #1cc3cb!important;
+    border: 1px solid #1cc3cb!important;
+    background-color: white!important;
+
 }
 #products{
     background-image: url("../images/temp.jpg");
@@ -134,8 +174,34 @@
     text-align: center;
     margin-bottom: 50px;
 }
+.label-prods p{
+    color: #1cc3cb;
+}
 .card-body{
+    font-family: 'Raleway', sans-serif;
     box-shadow: 0 0 7px #1cc3cb;
+}
+.card-body .card-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+p b{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: .7;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: gray;
+    opacity: 1;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: black;
+    opacity: .7;
 }
 .hr{
     background-color: #1cc3cb;
@@ -145,12 +211,14 @@
     color: red;
 }
 footer{
-    background-color: #494949;
-    color: black;
+    background-color: #212121;
 }
 .footer-topics{
-
-    color:  #1cc3cb;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #1cc3cb;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 #copyright{
     margin: 20px;
@@ -161,5 +229,11 @@ footer{
     
 }
 #about{
+    margin: 2px;
+    color: #1cc3cb;
+}
+footer p{
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
     margin: 2px;
 }
