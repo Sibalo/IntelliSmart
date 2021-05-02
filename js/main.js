@@ -25,9 +25,15 @@ $(document).ready(() => {
                     scrollTop: $("#products").offset().top},
                     'fast');
                 break;
-            default:
+            case ("Contact Us"):
                 $('html,body').animate({
                     scrollTop: $("#contact").offset().top},
+                    'fast');
+                break;
+            
+            default:
+                $('html,body').animate({
+                    scrollTop: $("#image").offset().top},
                     'fast');
         }
 
